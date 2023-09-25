@@ -73,6 +73,7 @@ body {
 .secundario {
     align-items: center;
     margin: 0 10em;
+    background-color: #c57236;
 }
 
 .descricao__titulo {
