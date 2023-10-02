@@ -21,6 +21,7 @@ body {
 }
 
 .principal {
+    background-image: url(Home.png);
     background-color: var(--cor-de-fundo);
     background-repeat: no-repeat;
     background-size: contain;
