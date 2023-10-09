@@ -5,6 +5,7 @@
     --cor-de-fundo: #ffbd59;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
+    --marrom-cookie: #C57236;
 }
 
 body {
@@ -74,6 +75,7 @@ body {
 .secundario {
     align-items: center;
     margin: 0 10em;
+    background-color: var(--marrom-cookie);
 }
 
 .descricao__titulo {
