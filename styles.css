@@ -25,11 +25,10 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
-    text-align: center;
-    display: table;
-  width: 100%;
-  height: 100vh;
-  padding: 100px 0;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    
 }
 
 .container {
@@ -55,9 +54,9 @@ body {
     align-items: center;
     text-align: center;
     display: table;
-  width: 100%;
-  height: 100vh;
-  padding: 100px 0;
+    width: 100%;
+    height: 100vh;
+    padding: 100px ;
     background-color: transparent;
     border: 2px solid var(--branco-principal)
 }
@@ -85,13 +84,23 @@ body {
 }
 
 .secundario {
+    background-image: url("About.png");
     align-items: center;
-    margin: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    grid-template-columns: 60% ;
+    margin-left: 20px;
 }
+    
 
 .descricao__titulo {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 30px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
@@ -117,7 +126,13 @@ body {
 }
 
 .dispositivos {
-    text-align: center;
+    background-image: url(Products.png);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
 }
 
 .dispositivos__titulo {
